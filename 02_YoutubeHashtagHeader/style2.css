@@ -1,0 +1,32 @@
+body{
+font-family: sans-serif;
+}
+.hashtag_header{
+    background-color: #065FD4;
+    background-image: url('./images/background.png');
+    /* height: 300px; */
+    color: white;
+    padding: 4rem;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 105%;
+}
+h1{
+    margin:0 0 1rem 0;
+    font-size: 4rem;
+}
+span{
+    font-size: 1.5rem;
+}
+img{
+    width: 5rem;
+    height: 4.7rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    vertical-align: middle;/*  to align the picture with text */
+    
+}
+/* adjacent sibling selector + it will apply the css on all chiled except first one */
+img+img{
+    margin-left: -1rem; 
+}

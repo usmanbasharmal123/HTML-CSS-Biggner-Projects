@@ -1,0 +1,31 @@
+body{
+ color: white;
+}
+.hashtage_header{
+    background-color: rgb(43, 43, 168);
+    padding: 5rem;
+    background-image: url("./images/background.png");
+  background-position-y: 10%;
+  background-position-x:400% ;
+      /* background-size: 200px;
+    background-repeat: no-repeat; */
+    /* display: flex; */
+}
+.spn{
+    font-size: 1.5rem;
+}
+img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    vertical-align:middle;
+    border: 5px solid white;
+    margin-left: -15px;
+}
+
+.imgDiv{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+
+}
